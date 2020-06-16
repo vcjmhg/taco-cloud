@@ -1,4 +1,4 @@
-package tacos;
+package com.vcjmhg.tacocloud;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
