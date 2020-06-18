@@ -1,4 +1,4 @@
-package pojo;
+package com.vcjmhg.tacocloud.pojo;
 
 public class Ingredient {
     private final String id;

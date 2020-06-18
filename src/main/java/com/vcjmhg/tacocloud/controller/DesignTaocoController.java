@@ -1,19 +1,19 @@
-package controller;
+package com.vcjmhg.tacocloud.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pojo.Ingredient;
-import pojo.Ingredient.Type;
-import pojo.Taco;
+import com.vcjmhg.tacocloud.pojo.Ingredient;
+import com.vcjmhg.tacocloud.pojo.Ingredient.Type;
+import com.vcjmhg.tacocloud.pojo.Taco;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Controller
-@RequestMapping("/desing")
+@RequestMapping("/design")
 public class DesignTaocoController {
     @GetMapping
     public String showDesignForm(Model model){
@@ -43,5 +43,4 @@ public class DesignTaocoController {
                 .filter(x->x.getType().equals(type))
                 .collect(Collectors.toList());
     }
-
 }

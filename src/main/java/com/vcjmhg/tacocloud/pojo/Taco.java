@@ -1,4 +1,4 @@
-package pojo;
+package com.vcjmhg.tacocloud.pojo;
 
 import java.util.List;
 
